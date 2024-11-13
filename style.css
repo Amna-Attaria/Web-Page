@@ -1,0 +1,107 @@
+
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:black;
+}
+.navbar 
+{
+    background-color:black;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    border-bottom: 2px solid #ffffff;
+  }
+  #navbarNav
+  {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .three
+  {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .navbar-expand-lg
+  {
+    border-bottom: 1px solid #ffffff;
+  }
+.btn
+{
+    border-radius: 15px;
+    color: whitesmoke;
+    border: none;
+    padding: 5px;
+    background-color:#e0c111;
+}
+.btn:hover
+{
+  cursor: pointer;
+  background-color: aliceblue;
+  color:#c8ad18;
+  border: 1px solid rgb(124, 55, 55) ;
+}
+
+.four
+{
+  background-color: #ffffff;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.four img:hover
+{
+  opacity: 0.5;
+  box-shadow: #e0c111;
+  transform: 0.3em;;
+}
+.six
+{
+  border: 2px solid black;
+}
+.seven img
+{
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  border: 1px solid white;
+  box-shadow: 2px 2px 2px 2px wheat;
+}
+.footer {
+  color: #ffff;
+  border-top: 2px solid #e0c111;
+}
+.link .foot-item .foot-link {
+  color: black;
+  padding: -8%;
+}
+
+.link .foot-item .foot-link :hover {
+  cursor: pointer;
+}
+
+a
+{
+  text-decoration: none;
+  
+}
+footer {
+  bottom: 0px;
+}
+
+.btn {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar {
+  transition: background-color 0.3s;
+}
+.link .foot-item .foot-link:hover {
+  cursor: pointer;
+  color: #e0c111; /* Optionally change color on hover */
+}
